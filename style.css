@@ -14,7 +14,6 @@ body {
 }
 
 .footer {
-  max-width: 70rem;
   margin-top: 5rem;
   display: flex;
   gap: 1.5rem;
