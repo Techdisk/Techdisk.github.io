@@ -1,0 +1,28 @@
+html,
+body {
+  box-sizing: inherit;
+  height: 100%;
+  color: #ffb241;
+  background-color: #000000;
+  font-family: "Courier", monospace;
+  text-align: center;
+}
+
+body {
+  display: grid;
+  place-items: center;
+}
+
+.footer {
+  margin-top: 5rem;
+  display: flex;
+  gap: 1.5rem;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer > a {
+  color: #ffb241;
+  font-size: 1.2rem;
+}
